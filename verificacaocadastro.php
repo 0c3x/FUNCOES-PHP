@@ -98,7 +98,7 @@ function validateCadastro($InputArray, $redirecionar){
         if($erro){
             return $erro;
         }{
-            $Qcad = "INSERT INTO CADASTRO VALUES(NULL, '$email', '$nomecompleto', '$password')";
+            $Qcad = "INSERT INTO CADASTRO VALUES(NULL, '$nomecompleto', '$email' , '$password')";
             $Icad = mysqli_query($con, $Qcad);
 
             if(!$Icad){
