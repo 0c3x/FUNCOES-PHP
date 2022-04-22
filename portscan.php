@@ -1,3 +1,4 @@
+<?php 
 
 function nomeUnico(){
 
@@ -64,6 +65,7 @@ function varreduraServices($ip){
 
 }
 
+?>
 
 
 //PARA MAIOR SEGURANÇA NO USO, INTEGRE A FUNÇÃO --VALIDADEIPV4.PHP--
