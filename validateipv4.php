@@ -1,3 +1,5 @@
+<?php
+
 //VALIDATE IPV4
 function validateIPv4($ipv4){
     $str_invalidos = "!,@,#,$,%x*,(,),-,+,*,-,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,z,w,y,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,X,Z,W,Y,*,-,+, ,|";
@@ -34,3 +36,4 @@ function validateIPv4($ipv4){
 // this function is to integration with nmap and
 // I didn't use the function filter_var($ip, FILTER_VALIDATE_IP), because don't accept the range 0/24
 
+?>
