@@ -1,5 +1,7 @@
-<?php
 
+
+<?php
+//A PASTA DEVERÁ SER REFERENCIA, FIZ UMA PASTA TEMP PARA ARMAZENAR
 
 class NetworkScan{
     private $simpleScan;
