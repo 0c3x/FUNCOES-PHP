@@ -32,8 +32,5 @@ function validateIPv4($ipv4){
         return 0;
     }
 
-}
-// this function is to integration with nmap and
-// I didn't use the function filter_var($ip, FILTER_VALIDATE_IP), because don't accept the range 0/24
 
 ?>
